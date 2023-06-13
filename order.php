@@ -99,11 +99,9 @@ while($row = mysqli_fetch_assoc($result)) {
 <script>
  let arr=[];
  console.log(arr);
- let sum=0;
- arr.forEach((e)=>{
-    sum=sum+e;
- })
- let count =0;
+
+ 
+
     let  btn=document.getElementsByTagName('button');
     console.log(btn);
     Array.from(btn).forEach((item)=>{
@@ -130,7 +128,10 @@ while($row = mysqli_fetch_assoc($result)) {
        amount.innerHTML=price;
       let stored=Number(amount.innerHTML)
      arr.push(stored);
-     console.log(arr);
+     let sum=0;
+     arr.forEach((e)=>{
+    sum+=e;
+ })
 
  
      
