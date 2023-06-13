@@ -1,0 +1,44 @@
+#navbarNav{
+   
+    justify-content: end!important;
+}
+@media only screen and (max-width: 992px) {
+    #navbarNav{
+   
+    }
+  }
+.user{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.profile{
+    border: 1px solid lightgray!important;
+}
+.card{
+    border:none!important;
+}
+.card-size{
+    width:100%!important;
+}
+img{
+    width:7rem!important;
+}
+.col-3{
+    /* margin-right:5px!important; */
+    border: 1px solid lightgray!important;
+    width: fit-content!important;
+}
+#product_price_cart{
+    padding-left:10px!important;
+    
+}
+/* .empty{
+    color:red!important;
+} */
+.grocery{
+    height:7rem;
+
+}
+
